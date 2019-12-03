@@ -1,5 +1,5 @@
 # JavaScript Date Library 
-This is a **date library wrapper** that extends the functionality of the built-in javascript Date object. 
+This is a date library wrapper that extends the functionality of the built-in javascript Date object. 
 
 ## Getting Started
 Run the following command in your project folder: <br/>

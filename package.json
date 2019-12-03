@@ -1,0 +1,22 @@
+{
+  "name": "@annapawl/date_library",
+  "version": "1.0.0",
+  "description": "This is a date library wrapper that extends the functionality of the built-in javascript Date object.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnniePawl/JS-Date-Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnniePawl/JS-Date-Library/issues"
+  },
+  "homepage": "https://github.com/AnniePawl/JS-Date-Library#readme"
+}
