@@ -1,4 +1,7 @@
 # JavaScript Date Library 
+![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Date-Library?style=flat-square)
+![npm](https://img.shields.io/npm/v/@annapawl/date_library?style=flat-square)
+
 This is a date library wrapper that extends the functionality of the built-in javascript Date object. 
 
 ## Getting Started
@@ -13,23 +16,27 @@ require('@annapawl/src/date_library')
 
 ## Date & Time Methods
 **year()** </br> 
-This method capitalizes the first letter of an entire string </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+This method returns a date's full year </br> 
+`'Time'.capitalizeFirst()` &#8594; "String cheese"
 
 **yearShort()** </br> 
-This method capitalizes the first letter of an entire string </br> 
+This method returns a date's abbreviated year </br> 
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **month()** </br> 
-This method capitalizes the first letter of an entire string </br> 
+This method returns a date's full month </br> 
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **monthShort()** </br> 
-This method capitalizes the first letter of an entire string </br> 
+This method returns a date's abbreviated month </br> 
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **day()** </br> 
-This method capitalizes the first letter of an entire string </br> 
+This method returns a day's date </br> 
+`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+
+**dayShort()** </br> 
+This method returns a date's day </br> 
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **hrs()** </br> 
@@ -37,7 +44,7 @@ This method capitalizes the first letter of an entire string </br>
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **mins()** </br> 
-This method capitalizes the first letter of an entire string </br> 
+this method returns time's min </br> 
 `'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 **secs()** </br> 
