@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AnniePawl/JS-Date-Library/issues"
   },
-  "homepage": "https://github.com/AnniePawl/JS-Date-Library#readme"
+  "homepage": "https://github.com/AnniePawl/JS-Date-Library#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
