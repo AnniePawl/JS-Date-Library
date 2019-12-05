@@ -14,6 +14,9 @@ Then add this to your index.js file <br/>
 require('@annapawl/src/date_library')
 ```
 
+## Creating a Date
+const date = new Date('04/11/1993')
+
 ## Date & Time Methods
 **year()** </br> 
 This method returns a date's full year </br> 

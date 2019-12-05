@@ -1,26 +1,37 @@
 require('../src/index')
 
 // year() Test 
+// Returns full year (4 digits)
 test('year', () => {
   expect(d.year()).toBe()
 })
 
 // yearShort() Test
+// Returns short year (2 digits)
 test('yearShort', () => {
   expect(d.yearShort()).toBe()
 })
 
 // month() Test 
+// Returns month 
 test('month', () => {
   expect(d.month()).toBe()
 })
 
-// monthShort() Test 
+// date() Test
+// Returns date
 
-// day Test 
+// day() Test 
+// Returns day of the week 
 
 // hrs() Test 
+// Returns hours
 
-// mins() Test 
+// min() Test 
+// Returns minutes
 
-// secs() Test
+// sec() Test
+// Returns seconds
+
+// ms() Test
+// Returns milliseconds
