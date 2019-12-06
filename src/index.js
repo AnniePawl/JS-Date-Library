@@ -75,43 +75,44 @@ class Dates {
   ms() {
     return this.date.getMilliseconds()
   }
-
 }
 
 
-// Instantiate 
-const d = new Dates('4/11/1993')
-console.log(d.fullYear())
-console.log(d.shortYear())
-console.log(d.monthName())
-console.log(d.dayName())
-console.log(d.hr())
-console.log(d.min())
-console.log(d.sec())
-console.log(d.ms())
+// Formatting
+mask = () => {
+  // Year
+  const fullYear = this.getYear().toString()
+  const shortYear = clipString(fullYear, 2, true)
+  mask = mask.replace('Y', fullYear)
+  mask = mask.replace('y', shortYear)
+
+  // Month
+  const month = this.getMonth().toString()
+  const paddedMonth = leftPad(month, 2)
+  mask = mask.replace('M', paddedMonth)
+  mask = mask.replace('m', month)
 
 
 
+}
 
-// // date()
-// // Returns date of month (number)
-// date() {
-//   return this.date.getDate();
-// }
-
-
-
-
+const d = new Dates(2017, 0, 2, 3, 4, 5)
+console.log(d.format()) // 2017 January 02
+console.log(d.format('y/m/d')) // 17/Jan/2
+console.log(d.format('H:I:S')) // 03:04:05
+console.log(d.format('h:i:s')) // 3:4:5
+console.log(d.format('Y-M-D h:I:S')) // 2017-January-02 3:04:05
 
 
+// when()
+// Returns when a date will occur (hrs, min, sec)
+when() {
+  const now = new Dates()
 
+  const years = 
 
+  
+}
 
-
-
-
-// mask = {
-
-// }
 
 module.exports = Dates;
