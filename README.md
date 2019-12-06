@@ -1,6 +1,9 @@
 # JavaScript Date Library 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Date-Library?style=flat-square)
 ![npm](https://img.shields.io/npm/v/@annapawl/date_library?style=flat-square)
+[![Build Status](https://travis-ci.com/AnniePawl/JS-Date-Library.svg?branch=master)](https://travis-ci.com/AnniePawl/JS-Date-Library)
+[![Coverage Status](https://coveralls.io/repos/github/AnniePawl/JS-Date-Library/badge.svg?branch=master)](https://coveralls.io/github/AnniePawl/JS-Date-Library?branch=master)
+
 
 This is a date library wrapper that extends the functionality of the built-in javascript Date object. 
 
@@ -15,44 +18,41 @@ require('@annapawl/src/date_library')
 ```
 
 ## Creating a Date
-const date = new Date('04/11/1993')
+const d = new Date('04/11/1993')
 
 ## Date & Time Methods
-**year()** </br> 
-This method returns a date's full year </br> 
-`'Time'.capitalizeFirst()` &#8594; "String cheese"
+**fullYear()** </br> 
+This method returns a date's full year (4 digits) </br> 
+`d.fullYear()` &#8594; 1993
 
-**yearShort()** </br> 
-This method returns a date's abbreviated year </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+**shortYear()** </br> 
+This method returns a date's abbreviated year (2 digits) </br> 
+`d.shortYear()` &#8594; 93
 
-**month()** </br> 
-This method returns a date's full month </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+**monthName()** </br> 
+This method returns a date's month name (January-December)</br> 
+`d.monthName()` &#8594; "April"
 
-**monthShort()** </br> 
-This method returns a date's abbreviated month </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+**dayName()** </br> 
+This method returns a date's day name (Mon-Sun) </br> 
+`d.dayName()` &#8594; "Sunday"
 
-**day()** </br> 
-This method returns a day's date </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+**hr()** </br> 
+This method returns hr date was created</br> 
+`d.hr()` &#8594; "String cheese"
 
-**dayShort()** </br> 
+**min()** </br> 
 This method returns a date's day </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+`d.min()` &#8594; "String cheese"
 
-**hrs()** </br> 
+**sec()** </br> 
 This method capitalizes the first letter of an entire string </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+`d.sec()` &#8594; "String cheese"
 
-**mins()** </br> 
+**ms()** </br> 
 this method returns time's min </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
+`'d.ms()` &#8594; "String cheese"
 
-**secs()** </br> 
-This method capitalizes the first letter of an entire string </br> 
-`'string cheese'.capitalizeFirst()` &#8594; "String cheese"
 
 ## Date Formatting Methods
 
